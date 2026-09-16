@@ -1,0 +1,3 @@
+https://github.blog/ai-and-ml/github-copilot/how-to-generate-unit-tests-with-github-copilot-tips-and-examples/
+
+https://github.com/AntonioTrovato/GradleProject
