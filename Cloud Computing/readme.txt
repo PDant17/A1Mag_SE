@@ -1,0 +1,2 @@
+Le slide del corso non vengono pubblicate.
+Su e-learning ci sono soltanto un outline della ogni lezione, una reference in cui viene specificato quale capitolo di quale libro è stato trattato ed eventualmente dei link extra con altri approfondimenti.
