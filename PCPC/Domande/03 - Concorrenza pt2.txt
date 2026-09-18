@@ -1,0 +1,19 @@
+- Cosa è la safety e la liveness di un programma?
+- Perché in un programma sequenziale non si deve provare la liveness?
+- Quale è la differenza sostanziale tra "lattine" e "bandiere" ?
+- Cosa è il flag principle dell'esempio di Alice e Bob?
+- Cosa potrebbe accadere al protocollo di Mutua Esclusione descritto per Alice e Bob, se Bob usasse lo stesso protocollo di Alice ? E se Alice usasse lo stesso protocollo di Bob.
+- Dimostrare la correttezza dell'algoritmo di Mutua Esclusione per gli animaletti di Alice e Bob.
+- Cosa significano le proprietà di un protocollo dette: mutua esclusione, deadlock-freedom, starvation-freedom, waiting?
+- Per ciascuna delle proprietà sopra enunciate, quale è la efficacia del protocollo tra Alice e Bob?
+- Perché c'è differenza tra comunicazione transiente e persistente? Perché Bob (o Alice) non possono semplicemente chiedere ad alta voce ? Quali sono i problemi che una soluzione di questo tipo incontrerebbe?
+- Quali sono le proprietà del protocollo descritto per il problema del Produttore-consumatore?
+- Dimostrare la proprietà di mutua esclusione/starvation-free/produttore-consumatore per il protocollo descritto (lattine).
+- Si può risolvere il problema del Produttore-Consumatore con 1 bandiera? e con 2?
+Perchè nella soluzione al problema readers/writers basata sulla mutua esclusione Alice può perdere delle frasi?
+- Quale è la legge di Amdahl?
+- Perché questo ha impatto su dove si sincronizza in un programma (granularità della sincronizzazione)?
+- Cosa è un problema "embarassingly parallel"?
+- A cosa servono i metodi: start(), join(), wait(), notify(), yield(), sleep() ?
+- Cosa sono i thread-local objects? Che caratteristiche hanno?
+- Perchè ci interessa sapere che la nostra JVM non usa (più) i green tread?

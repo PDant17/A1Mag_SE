@@ -1,0 +1,3 @@
+- Quale è la intuizione dietro al meccanismo dei bounded timestamp?
+- Provare a costruire il grafo T^k per k=4, 5
+- Provare la dimostrazione del Lower Bound nel caso generale (per k registri)

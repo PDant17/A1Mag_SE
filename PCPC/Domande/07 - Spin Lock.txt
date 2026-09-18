@@ -1,0 +1,38 @@
+- Cosa è il meccanismo dello spinning?
+- Cosa è il meccanismo del blocking?
+- Quale è la differenza tra spinning e blocking? In quali situazioni una soluzione è migliore dell'altra?
+- Quali sono i due problemi che sconsigliano l'utilizzo di algoritmi di lock come Filter, Bakery o Peterson?
+- In che maniera la dimostrazione di correttezza del lock di Peterson viene inficiata dalla mancanza di consistenza sequenziale?
+- A cosa può essere addebitato la mancanza di consistenza sequenziale delle moderne architetture hardware/software?
+- Perché le memory barrier sono costose in termini di tempo?
+- Descrivere il Test-and-Set lock
+- Descrivere il Test-and-Test-and-Set lock
+- Perché TTAS risulta sperimentalmente più efficiente di TAS?
+- Quali sono le motivazioni per introdurre il backoff nei lock, a seconda di high o low contention?
+- Descrivere l'algoritmo di BackoffLock
+- Perché si fa backoff solamente all'interno del ciclo while (cioè se il Test-and-Set non va a buon fine) e non all'esterno (cioé durante il Test)? Cosa succederebbe se facessimo il backoff fuori dal ciclo (anche magari rendendo più lenta la crescita del ritardo (passandolo da esponenziale a lineare, ad esempio))?
+- Quali sono i problemi di BackoffLock che portano alla definizione delle code di lock?
+- Quali sono le caratteristiche principali di queue lock che le rendono più efficienti rispetto agli algoritmi precedentemente visti?
+- Cosa offre in più come funzionalità una qualsiasi queuelock rispetto agli altri tipi di lock?
+- Descrivere l'algoritmo di Lock di Anderson (ALock)
+- Perché sono critiche le variabili thread-local in ALock?
+- Perchè flag[] deve essere condiviso (e non thread-local) e ciò nonostante non crea problemi di efficienza?
+- Descrivere il meccanismo di false sharing che può capitare con ALock e come può essere risolto
+- Descrivere le motivazioni a CLH Lock
+- Descrivere l'algoritmo di CLH Lock
+- In che maniera in CLH si mantiene una lista "virtuale" di nodi per rappresentare la coda?
+- Quali sono i vantaggi e gli svantaggi di CLH Lock? E rispetto ad ALock?
+- Quali sono le motivazioni a MCSLock? E le differenza strutturali con CLH Lock?
+- Descrivere l'algoritmo di MCSLock
+- Perché MCSLock funziona meglio su architetture NUMA cache-less?
+- In che cosa si differenzia la coda "gestita" da MCS con la coda "gestita" da CLH?
+- Perché servono le code con timeout?
+- Descrivere un meccanismo di Backofflock con timeout
+- Quali sono i problemi che l'introduzione di un timeout può provocare su una implementazione classica (A, CHL, MCS)
+- Descrivere l'algoritmo TOLock
+- Quale motivazione hanno i Composite Locks?
+- Quale è l'idea di un Composite Lock?
+- Perché serve il Fast Path?
+- Perché sono necessari gli hierarchical locks? In che architettura parallela sono particolarmente utili ?
+- Descrivere gli hierarchical Backoff lock
+- Descrivere l'idea dei Hierarchical CLH lock

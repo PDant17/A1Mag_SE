@@ -1,0 +1,2 @@
+Il corso più recente da cui poter recuperare materiale è 2019-20, gli altri sono del tutto vuoti.
+Non esistono slide specifiche, solo videolezioni, del materiale di riferimento che si può usare per approfondimento e le domande di riepilogo.

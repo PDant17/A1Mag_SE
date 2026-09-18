@@ -1,0 +1,25 @@
+- Quali sono le principali motivazioni ad utilizzare il calcolo parallelo?
+- Quali sono alcuni campi di applicazioni del calcolo parallelo?
+- Quali sono le ragioni tecnologiche al calcolo parallelo?
+- Descrivere la tassonomia di Flynn.
+- Cosa è la granularità di un programma parallelo?
+- Cosa è ed in cosa consiste (da cosa è generato) l'overhead di un programma parallelo?
+- Descrivere la architettura a Shared Memory (UMA e NUMA) con vantaggi e svantaggi
+- Descrivere la architettura a Distributed Memory con vantaggi e svantaggi
+- Descrivere le architetture ibride
+- Cosa è il modello di programmazione shared memory?
+- Cosa è il modello di programmazione multithreading?
+- Cosa è il modello di programmazione message passing?
+- In cosa consiste il modello di programmazione data parallel?
+- Quale è l'obiettivo della parallelizzazione dei programmi paralleli e in cosa si differenziano i compilatori fully automatic da quelli programmer directed?
+- Quale è l'obiettivo della tecnica del partitioning?
+- Cosa è la tecnica del domain decomposition?
+- Cosa è la tecnica della functional decomposition?
+- Quali sono le problematiche di load balancing generate dalla tecnica del domain decomposition e del functional decomposition? In quale dei due casi il load balancing è più semplice da effettuare, anche se non tutti i problemi sono risolti ?
+- Quali sono i fattori che influenzano la comunicazione?
+- In che maniera la progettazione del nostro programma parallelo viene influenzata da latenza e banda della comunicazione, disponibile sulla macchina parallela reale che si vuole usare?
+- Cosa sono le primitive di comunicazione broadcast, scatter, gather e reduction e perché vengono utilizzate?
+- Perché la dipendenza dei dati influenza la parallelizzazione di un programma?
+- Quale è il problema del bilanciamento del carico?
+- In cosa si differenziano assegnamento statico e dinamico del lavoro e quali sono i pro ed i contro di ciascuna soluzione?
+- Cosa è la granularità fine-grain e coarse-grain? E perché questa scelta influenza, da un lato, l'overhead dall'altro il load balancing della macchina parallela?

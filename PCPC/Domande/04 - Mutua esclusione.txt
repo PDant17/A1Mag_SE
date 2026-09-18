@@ -1,0 +1,13 @@
+- Cosa è un ordine totale? e un ordine parziale?
+- Perché è importante che gli eventi (nella nostra definizione) esibisca un ordine totale?
+- Perché gli intervalli di tempo (come definiti) definiscono un ordine parziale?
+- Cosa è un thread well-formed per la mutua esclusione?
+- Definire e descrivere le conseguenze di ciascuna delle seguenti proprietà di un lock: mutua esclusione, deadlock-free, starvation-free, first-come-first-served
+- Perché la starvation-freedom implica la deadlock-freedom?
+- Perché si rende necessario introdurre la proprietà first-come-first-served?
+- Descrivere (e criticare) l'algoritmo LockOne
+- Dimostrare la proprietà di Mutua Esclusione per il lock definito da LockOne
+- Perché LockOne va in deadlock se i due thread sono interfogliati? Esibire la sequenza di interleave che causa il deadlock
+- Descrivere (e criticare) l'algoritmo LockTwo
+- Dimostrare la proprietà di Mutua Esclusione per il lock definito da LockTwo
+- Perché LockTwo va in deadlock se i due thread sono eseguiti uno completamente prima dell'altro?

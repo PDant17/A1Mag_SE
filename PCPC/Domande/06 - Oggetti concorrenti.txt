@@ -1,0 +1,24 @@
+- Descrivere il problema del singleton in Java e come alcune soluzioni, come il double checked locking, non sono corrette
+- Cosa significa che un oggetto concorrente è corretto?
+- Descrivere l'algoritmo LockBasedQueue
+-Descrivere l'algoritmo WaitFreeQueue
+-Verificare come WaitFreeQueue è una soluzione per un single-enqueuer/single-dequeuer e che non è una soluzione in caso di multipli enqueuer/dequeuer
+- Confrontare la LockBasedQueue con la WaitFreeQueue
+- Perché è critico cercare di limitare al massimo l'utilizzo di lock negli oggetti concorrenti?
+- Cosa è la consistenza quiescente?
+- Cosa è la composability di una consistenza?
+- Perché la consistenza quiescente non limita la concorrenza?
+- Cosa è la consistenza sequenziale?
+- Quali sono i rapporti tra consistenza sequenziale e consistenza quiescente?
+- Dimostrare che la consistenza sequenziale non è composizionale
+- Cosa è la linearizzabilità e perché è necessario introdurla?
+- Quali sono le condizioni di progresso non bloccanti?
+- Quali sono le condizioni di progresso dipendenti?
+- Descrivere il modello di memoria di Java
+- Descrivere i lock e i blocchi synchronized in Java
+- Descrivere i campi volatile in Java
+- Descrivere i campi final in Java
+- Quali sono le condizioni di progresso giuste in diverse situazioni?
+- Quali sono le condizioni di correttezza giuste in diverse situazioni?
+- Quale è la legge di Amdahl? 
+- Perché questo ha impatto su dove si sincronizza in un programma (granularità della sincronizzazione)?

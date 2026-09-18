@@ -1,0 +1,10 @@
+- Quale è il parallelo tra monitor e programmazione a oggetti e procedurale?
+- Perché un monitor facilita la vita del programmatore, ma, se male implementato, può mettere a rischio la efficienza del programma?
+- Quando è più appropriato per un thread fare spinning o blocking?  E perché?
+- Cosa è uno spurious wakeup? E quali strumenti abbiamo, come sviluppatori, per evitare che creino problemi alla nostra applicazione?
+- Quale è la differenza tra lost wakeup e spurious wakeup? 
+- Perché segnalare a tutti i thread in attesa (signalAll) è utile per evitare i lost wakeup? Quale è il costo in cui incorriamo, invece di usare semplicemente signal()?
+- Quale è la differenza tra lock e semafori? 
+- Quali sono le condizioni di Readers-Writers che rendono necessario una implementazione ad - hoc? 
+- E' possibile realizzare Readers-Writers con una semplice sezione critica guardata da un lock? Se no, perché? Se si, perché allora non usiamo quella che è più semplice?
+- Perché FIFOReadWriteLock per i Readers-Writers è più equa? 

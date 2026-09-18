@@ -1,0 +1,28 @@
+- Perchè, mentre la efficienza del software scalava tipicamente insieme al progresso tecnologico nei processori (fino a quando sono stati single core) questo non avviene più nei processori multi-core?
+- Perchè é importante la programmazione concorrente, alla luce del trend tecnologico di processori multi-core?
+- Perché TASLock risulta essere meno efficiente di TTASLock?
+- Perché TASLock è equivalente a TTASLock?
+- Perchè in TTASLock, dopo aver fatto spinning in lettura con la get, si deve fare una getAndSet(true) invece di usare semplicemente una set(true)?
+- Descrivere la architettura SMP
+- Descrivere la architettura NUMA
+- Confrontare pro e contro delle architetture SMP e NUMA (ad esempio, efficienza, costi, scalabilità, ...)
+- Per quali motivi le cache line dovrebbero essere più grandi possibile?
+- Per quali motivi le cache line dovrebbero essere più piccole possibile?
+- Perché le cache line non possono essere più piccole di una word?
+- Definire cache hit, cache miss, hit ratio
+- Cosa è la località di un programma?
+- Descrivere le tecniche di rimpiazzo della cache
+- Quali sono le differenze tra la cache L1 e L2 nei moderni multiprocessori (in termini architetturali, ma anche di funzionalità)
+- Descrivere il protocollo MESI
+- Provare a cercare di ridurre i 4 stati di MESI a 3 soli, eliminandone uno... e verificare i problemi che sorgono in ciascuna configurazione a 3 stati
+- Descrivere lo spinning
+- Descrivere la efficienza dello spinning per SMP senza cache, per NUMA con cache e per SMP/NUMA con cache
+- Descrivere il False Sharing e le tecniche utilizzabili per limitarlo
+- Cosa è la Relaxed Consistency?
+- Come funziona e che vantaggi offre il write buffer? E che svantaggi porta?
+- Cosa è la write absorption?
+- Perchè è più efficiente fare il batching delle richieste di write?
+- Cosa è il reordering effettuato dai compilatori?
+- Perchè i compilatori effettuano il reordering?
+- Per quale motivo ogni singolo core effettua il multi-thread? Cosa succederebbe se progettassimo una architetture tale che ogni core fosse single-thread?
+- In che maniera in Java si può controllare la effettiva scrittura in memoria dei dati? E perchè, visto che esistono questi metodi, essi non vengono usati in ogni parte del codice?
