@@ -1,0 +1,23 @@
+Breve spiegazione sulla MC/DC Coverage
+https://www.youtube.com/watch?v=DivaWCNohdw
+
+MITRE Common Weakness Enumeration
+https://cwe.mitre.org/index.html
+
+MITRE Common Vulnerabilities and Exposures
+https://www.cve.org/
+
+OWASP Top-10
+https://top10.owasp.org/2025/
+
+OWASP Top-10 for ML Security
+https://owasp.github.io/www-project-machine-learning-security-top-10/
+
+OWASP Top-10 for LLMs and Gen AI Apps
+https://genai.owasp.org/llm-top-10/
+
+OWASP Top-10 for Mobile Apps
+https://owasp.github.io/www-project-mobile-top-10/
+
+Secure Coding Guidelines for Java SE
+https://www.oracle.com/java/technologies/javase/seccodeguide.html
